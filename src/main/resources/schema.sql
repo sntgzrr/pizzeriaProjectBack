@@ -6,3 +6,13 @@ email    VARCHAR(100) NOT NULL,
 password VARCHAR(100) NOT NULL,
 rol      VARCHAR(100) NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS CLIENT_ORDER(
+id              SERIAL PRIMARY KEY,
+client_name     VARCHAR(100) NOT NULL,
+client_lastname VARCHAR(100) NOT NULL,
+client_email    VARCHAR(100) NOT NULL,
+client_phone    VARCHAR(100) NOT NULL,
+pizza_name      VARCHAR(100) NOT NULL,
+order_price     VARCHAR(100) NOT NULL
+);
