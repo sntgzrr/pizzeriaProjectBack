@@ -1,0 +1,2 @@
+TRUNCATE TABLE CLIENT;
+INSERT INTO CLIENT (NAME, LASTNAME, EMAIL, PASSWORD, ROL) VALUES ('Santiago', 'Lozano', 'santi@gmail.com', 'root', 'ADMIN');
